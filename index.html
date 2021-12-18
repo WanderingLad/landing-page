@@ -3,8 +3,64 @@
  
   <head>
     <meta charset="UTF-8">
-    <title>CSS Positioning</title>
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <title>Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">   
   </head>
 
+  <body>
+    <section class="header row">
+      <div class="header-text column">
+        <h1>
+          Landing Page
+        </h1>
+      </div>
+      <div class="column list">
+        <ul >
+          <li class="header-list">
+            <a href="https://github.com/WanderingLad/landing-page" target="_blank">Github</a>
+          </li>
+          <li class="header-list">
+            <a href="https://www.linkedin.com/in/james-reilly-6ba523158/" target="_blank">LinkedIn</a>
+          </li>
+          <li class="header-list">
+            <a href="#contact">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="content">
+      <div>
+        <h2 id="welcome">
+          Welcome to the Landing Page
+        </h2>
+      </div>
+      <div id="image-container">
+        <img id="image" src="./Another Flower.png" alt="image"></img>
+        <figcaption style="text-align: center;">Just a forest</figcaption>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div id="contact-form">
+        <h3>Contact Me</h3>
+      </div>
+      <div>
+        <form style="margin-left: auto; margin-right: auto; text-align: center;" action="mailto:jreilly2112@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname"><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname"><br>
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" style="height:200px; width:200px;"></textarea><br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>Made by Jimmy Reilly GT Coding Bootcamp 2021</p>
+    </footer>
+  </body>
+  
 </html>

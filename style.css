@@ -1,1 +1,85 @@
+.header {
+    background: cornflowerblue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%
+  }
 
+  .header-text {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+  }
+
+  body {
+      background-color: cadetblue;
+  }
+
+  .list {
+    margin-top: 15px;
+    text-align: center;
+    color: white;
+    font-size: 30px
+  }
+
+  .header-list {
+    list-style-type:none;
+    display: inline;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #content {
+    margin-top: 150px;
+    
+  }
+
+  #welcome {
+      text-align: center;
+  }
+
+  #image-container {
+    align-content: center;
+  }
+
+  #image {
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #contact {
+    background-color: blanchedalmond;
+    margin-bottom: 150px;
+    width: 25%;
+    align-content: center;
+    margin-right:auto;
+    margin-left:auto;
+}
+#contact-form {
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+  }
